@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Quicksand&family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
-*,
-*:before,
-*:after {
+* {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -42,7 +40,6 @@
           flex-direction: column;
   overflow: hidden;
   width: 100%;
-  border: 1px solid #d3d3d342;
 }
 
 .content .cards-container .cards-item .card .card-image img {
@@ -64,18 +61,17 @@
 
 .content .cards-container .cards-item .card .card-content .card-title {
   padding-bottom: 0.5rem;
-  font-family: 'quicksand', sans-serif;
-  font-size: 1.35rem;
+  font-size: 1.25rem;
 }
 
 .content .cards-container .cards-item .card .card-content .card-title a {
-  color: #686868f1;
+  color: #6d8494;
   text-decoration: none;
 }
 
 .content .cards-container .cards-item .card .card-content .card-text {
   line-height: 2;
-  color: #999999;
+  color: #8a9ca8;
 }
 
 .content .cards-container .cards-item .card .card-content .card-text ul li {
@@ -84,7 +80,7 @@
 
 .content .cards-container .cards-item .card .card-content .card-text .card-information {
   width: 100%;
-  font-size: 0.92rem;
+  font-size: 0.9rem;
 }
 
 .content .cards-container .cards-item .card .card-content .card-text .card-left {
@@ -98,26 +94,14 @@
   text-align: right;
 }
 
-.content .cards-container .cards-item .card:hover {
-  border: 1px solid #999999c4;
-  -webkit-transition: 0.4s ease-in-out;
-  transition: 0.4s ease-in-out;
-}
-
-.content .cards-container .cards-item .card-image:hover {
-  opacity: 0.8;
-  -webkit-transition: 0.4s ease-in-out;
-  transition: 0.4s ease-in-out;
-}
-
 .content .cards-container .cards-item .card:hover .card-title a {
-  color: #eb7d00;
+  color: #414f58;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 
 .content .cards-container .cards-item .card:hover .card-text {
-  color: #686868;
+  color: #576975;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
@@ -130,7 +114,7 @@
 
 @media (min-width: 1000px) {
   .content .cards-container .cards-item {
-    width: 33.333333%;
+    width: 33.33333%;
   }
 }
 /*# sourceMappingURL=items.css.map */

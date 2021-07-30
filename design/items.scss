@@ -4,10 +4,18 @@
 // font-family: 'Quicksand', sans-serif;
 // font-family: 'Ubuntu', sans-serif;
 
+// #151d20
+// #2a343d
+// #414f58
+// #576975
+// #6d8494
+// #8a9ca8
+// #a5b5bd
+// #c6cdd5
+// #e2e5e9
+// #ffffff
 
-*,
-*:before,
-*:after {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -17,7 +25,7 @@
     max-width: 1280px;
     margin: 0 auto;
 
-    .cards-container {  
+    .cards-container {
         display: flex;
         flex-wrap: wrap;
         margin-top: 5%;
@@ -33,7 +41,7 @@
                 flex-direction: column;
                 overflow: hidden;
                 width: 100%;
-                border: 1px solid #d3d3d342;
+                // border: 1px solid #d3d3d342;
                 // background-color: #afafaf17;
 
                 .card-image {
@@ -51,18 +59,17 @@
 
                     .card-title {
                         padding-bottom: 0.5rem;
-                        font-family: 'quicksand', sans-serif;
-                        font-size: 1.35rem;
+                        font-size: 1.25rem;
 
                         a {
-                            color: #686868f1;
+                            color: #6d8494;
                             text-decoration: none;
                         }
                     }
 
                     .card-text {
                         line-height: 2;
-                        color: #999999;
+                        color: #8a9ca8;
 
                         ul li {
                             list-style: none;
@@ -70,7 +77,7 @@
 
                         .card-information {
                             width: 100%;
-                            font-size: 0.92rem;
+                            font-size: 0.9rem;
                         }
 
                         .card-left {
@@ -87,20 +94,17 @@
                 }
             }
 
-            .card:hover {
-                border: 1px solid #999999c4;
-                transition: 0.4s ease-in-out;
-            }
-            .card-image:hover {
-                opacity: 0.8;
-                transition: 0.4s ease-in-out;
-            }
+            // .card:hover {
+            //     border: 1px solid #6d8494;
+            //     transition: 0.4s ease-in-out;
+            // }
             .card:hover .card-title a {
-                color: #eb7d00;
+                color: #414f58;
                 transition: 0.3s ease-in-out;
             }
+
             .card:hover .card-text {
-                color: #686868;
+                color: #576975;
                 transition: 0.3s ease-in-out;
             }
         }
@@ -108,7 +112,6 @@
 }
 
 @media (min-width: 650px) {
-
     .content {
         .cards-container {
             .cards-item {
@@ -122,7 +125,7 @@
     .content {
         .cards-container {
             .cards-item {
-                width: 33.333333%;
+                width: 33.33333%;
             }
         }
     }
