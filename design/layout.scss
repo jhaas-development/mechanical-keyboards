@@ -35,7 +35,7 @@ header {
             }
 
             a:hover {
-                color: #ff8a8a;
+                color: #eb7d00;
                 transition: 0.3s ease-in-out;
             }
         }
@@ -262,82 +262,6 @@ header {
                 .navigation-right {
                     height: 75px;
 
-                    .dropdown-container {
-                        float: right;
-                        overflow: hidden;
-
-                        button {
-                            height: 100%;
-                            padding-right: 15px;
-                            align-self: center;
-                            border: none;
-                            font-size: 1.05rem;
-                            font-family: 'Quicksand', sans-serif;
-                            background-color: transparent;
-                            color: #a8a8a8be;
-                        }
-    
-                        button:hover {
-                            cursor: pointer;
-                            color: #000000;
-                            transition: 0.3s ease-in-out;
-                        }
-    
-                        .dropdown {
-                            display: none;
-                            position: absolute;
-                            width: 100%;
-                            left: 0;
-                            background-color: #fff;
-                            border-bottom: 1px solid #e6e6e6;
-                            z-index: 1;
-                            margin-top: 1px;
-
-                            .dropdown-content {
-                                max-width: 1280px;
-                                margin: 0 auto;
-                                display: flex;
-                                margin-top: 25px;
-                                padding-left: 8px;
-
-                                .dropdown-content-left {
-                                    width: 33%;
-                                    height: 100%;
-                                    float: left;
-                                }
-
-                                .dropdown-content-center {
-                                    width: 33%;
-                                    height: 100%;
-                                    float: right;
-                                }
-
-                                .dropdown-content-right {
-                                    width: 33%;
-                                    height: 100%;
-                                    float: right;
-                                }
-                                .dropdown-title {
-                                    margin-top: -5px;
-                                    padding-bottom: 5px;
-                                    font-size: 1rem;
-                                    font-family: 'Poppins', sans-serif;
-                                }
-                                .dropdown-link {
-                                    display: block;
-                                    margin-top: -35px;
-                                    font-size: 0.95rem;
-                                    font-family: 'Quicksand', sans-serif;
-                                }
-                            }
-                        }
-                    }
-
-                    .dropdown-container:hover .dropdown {
-                        display: block;
-                        transition: 2s ease-in-out;
-                    }
-
                     a {
                         height: 100%;
                         line-height: 75px; // centers links inside the height.
@@ -349,7 +273,7 @@ header {
                     }
 
                     a:hover {
-                        color: #000000;
+                        color: #eb7d00;
                         transition: 0.3s ease-in-out;
                     }
 

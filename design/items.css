@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Quicksand&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 *,
 *:before,
 *:after {
@@ -41,8 +42,7 @@
           flex-direction: column;
   overflow: hidden;
   width: 100%;
-  border: 1px solid #cfcfcf;
-  background-color: #fff;
+  border: 1px solid #d3d3d342;
 }
 
 .content .cards-container .cards-item .card .card-image img {
@@ -63,21 +63,19 @@
 }
 
 .content .cards-container .cards-item .card .card-content .card-title {
-  padding-bottom: 1rem;
-  font-size: 1.3rem;
-  font-weight: 500;
+  padding-bottom: 0.5rem;
+  font-family: 'quicksand', sans-serif;
+  font-size: 1.35rem;
 }
 
 .content .cards-container .cards-item .card .card-content .card-title a {
-  color: #999898da;
+  color: #686868f1;
   text-decoration: none;
 }
 
 .content .cards-container .cards-item .card .card-content .card-text {
-  margin-bottom: 1rem;
   line-height: 2;
-  font-size: 0.87rem;
-  color: #cfcfcf;
+  color: #999999;
 }
 
 .content .cards-container .cards-item .card .card-content .card-text ul li {
@@ -86,73 +84,42 @@
 
 .content .cards-container .cards-item .card .card-content .card-text .card-information {
   width: 100%;
-  font-size: 0.93rem;
+  font-size: 0.92rem;
 }
 
 .content .cards-container .cards-item .card .card-content .card-text .card-left {
   width: 50%;
   float: left;
-  text-align: left;
 }
 
 .content .cards-container .cards-item .card .card-content .card-text .card-right {
   width: 50%;
   float: right;
-  text-align: left;
+  text-align: right;
 }
 
-.content .cards-container .cards-item .card .card-content .cards-button {
-  padding: 0.5rem;
-  text-align: center;
-  text-decoration: none;
-  border: 1px solid #cfcfcf;
-  background-color: #fff;
-  color: #cfcfcf;
-}
-
-.content .cards-container .cards-item .card .card-content .cards-button:hover {
-  text-decoration: none;
-  border: 1px solid #000000;
-  background-color: #000000;
-  color: #fff;
+.content .cards-container .cards-item .card:hover {
+  border: 1px solid #999999c4;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
 }
 
-.content .cards-container .cards-item .card .card-content .button-block {
-  width: 100%;
-}
-
-.content .cards-container .cards-item .card:hover {
-  border: 1px solid #8a8a8a;
+.content .cards-container .cards-item .card-image:hover {
+  opacity: 0.8;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
 }
 
 .content .cards-container .cards-item .card:hover .card-title a {
-  color: #000000;
-  -webkit-transition: 0.4s ease-in-out;
-  transition: 0.4s ease-in-out;
+  color: #eb7d00;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .content .cards-container .cards-item .card:hover .card-text {
-  color: #000000;
-  -webkit-transition: 0.4s ease-in-out;
-  transition: 0.4s ease-in-out;
-}
-
-.content .cards-container .cards-item .card:hover .card-text strong {
-  color: #ff8a8a;
-  -webkit-transition: 0.4s ease-in-out;
-  transition: 0.4s ease-in-out;
-}
-
-.content .cards-container .cards-item .card:hover .cards-button {
-  border: 1px solid #8a8a8a;
-  background-color: #fff;
-  color: #8a8a8a;
-  -webkit-transition: 0.4s ease-in-out;
-  transition: 0.4s ease-in-out;
+  color: #686868;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 @media (min-width: 650px) {
